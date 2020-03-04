@@ -1,0 +1,12 @@
+文件說明：
+
+1.算法使用的軟件工具：matlab2017a
+
+2.如文件，你會看到有5個txt文檔，main/Regression/Train_A/Train_B/Test
+
+  1) 分別建立m文件，把這些程序貼過去，有main.m/Regression.m/Test.m/TrainA.m/TrainB.m （劃重點，橋黑板：千萬不要下劃線，不然保存不了）
+
+  2) 先運行TrainA.m/TrainB.m/Test.m 得到特徵值,把特徵值複製到main文件下。
+     (由於建立的數據集路徑不一樣，需根據個人數據集存儲的位置改動路徑,這部分main文件已經有了)
+
+  3) 運行main.m這個就可以得到預測結果。Regression.m這個是回歸曲線調用的函數，如果運行main.m有問題，可能是Regression.m路徑問題。
